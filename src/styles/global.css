@@ -1,0 +1,18 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5; /* Light gray background */
+    color: #000; /* Black text */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    color: #FFF44F; /* Lemon Yellow links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #FFD700; /* Golden Yellow on hover */
+  }
+  

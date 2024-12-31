@@ -1,0 +1,25 @@
+.loading-container {
+    text-align: center;
+    margin-top: 20%;
+  }
+  
+  .loading-bar {
+    width: 80%;
+    height: 20px;
+    background-color: #F5F5F5; /* Light gray background for the bar */
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #DDD; /* Light gray border */
+  }
+  
+  .loading-progress {
+    height: 100%;
+    background-color: #FFF44F; /* Lemon Yellow progress bar */
+    transition: width 0.1s ease;
+  }
+  
+  p {
+    color: #000; /* Black text for the percentage */
+  }
+  

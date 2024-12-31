@@ -1,0 +1,51 @@
+.login-container {
+    text-align: center;
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 10%; /* Add vertical spacing */
+    background-color: #FFFFFF; /* White background for the form container */
+    padding: 40px; /* Increased padding for a larger look */
+    width: 400px; /* Fixed width for the form */
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increase gap between inputs */
+  }
+  
+  .login-input {
+    padding: 15px; /* Larger input fields */
+    font-size: 18px; /* Bigger font for inputs */
+    border: 1px solid #DDD; /* Light gray border */
+    border-radius: 5px;
+    background-color: #F5F5F5; /* Light gray input background */
+    color: #000; /* Black text */
+  }
+  
+  .login-input::placeholder {
+    color: #AAA; /* Gray placeholder */
+  }
+  
+  .login-button {
+    padding: 15px 20px; /* Larger button size */
+    font-size: 18px; /* Bigger button text */
+    background-color: #FFF44F; /* Lemon Yellow background */
+    color: #000; /* Black text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-secondary-button {
+    padding: 15px 20px; /* Larger button size */
+    font-size: 18px; /* Bigger button text */
+    background-color: #FFD700; /* Golden Yellow */
+    color: #000; /* Black text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

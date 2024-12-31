@@ -1,0 +1,119 @@
+/* Keyframes for Advanced Gradient Animation */
+@keyframes complexYellowGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 50% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    75% {
+      background-position: 50% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* General Gradient Class */
+  .moving-gradient {
+    background: linear-gradient(
+      90deg,
+      #FFF44F,
+      #FFD700,
+      #FFEC8B,
+      #FFFACD
+    );
+    background-size: 400% 400%; /* Large size for smooth animation */
+    animation: complexYellowGradient 10s ease infinite; /* Smooth looping */
+  }
+  
+  /* Profile Circle */
+  .character-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 244, 79, 0.8); /* Soft glow */
+    background: linear-gradient(
+      90deg,
+      #FFF44F,
+      #FFD700,
+      #FFEC8B,
+      #FFFACD
+    );
+    background-size: 400% 400%;
+    animation: complexYellowGradient 10s ease infinite;
+  }
+  
+  /* Stat Boxes */
+  .stat-box {
+    background: linear-gradient(
+      90deg,
+      #FFF44F,
+      #FFD700,
+      #FFEC8B,
+      #FFFACD
+    );
+    background-size: 400% 400%;
+    animation: complexYellowGradient 10s ease infinite;
+    color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Send Button */
+  .send-button {
+    background: linear-gradient(
+      90deg,
+      #FFF44F,
+      #FFD700,
+      #FFEC8B,
+      #FFFACD
+    );
+    background-size: 400% 400%;
+    animation: complexYellowGradient 10s ease infinite;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .send-button:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Adjustments for Other Elements */
+  .message-display {
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .message-display.dark {
+    background-color: #000; /* Black for dark mode */
+    color: #fff; /* White text */
+  }
+  
+  .ai-message.dark {
+    background-color: #000;
+    color: #fff44f; /* Yellow text for AI in dark mode */
+  }
+  
+  .user-message {
+    background-color: #fff44f; /* User message yellow */
+    color: #000; /* Black text */
+  }
+  
